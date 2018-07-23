@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* 
+FYI - Import statements, if any, go on the very first line
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+Most of your styles will go in this section
+*/
+
+body{
+	background: url(../images/freeShingles.png) 100%;  /*https://inhabitat.com/how-to-determine-if-energy-efficiency-upgrades-are-right-for-your-home-and-budget/*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	margin-top: 58px;
+	margin-bottom: 5px;
+	padding-bottom: auto;
+	padding-top: auto;
+	font-family: 'Lato', sans-serif;
+	color: #F2F2F2;
+
+}
+.container{
+	background-color: rgba(33, 33, 33, .8);
+	padding-top: 10px;
+}
+
+.foot{
+	margin-top: 10px;
+	padding-top: 10px;
+	background-color: #2D2D2D;
+	border-top: 2px solid #BF6E35;
+	padding-bottom: 5px;
+}
+.foot2{
+	margin-top: 0px;
+}
+.foot-btn{
+	margin-top: 30px;
+	float: right;
+	margin-right: 40px;
+	border-color: #BF6E35;
+}
+.foot-btn:hover{
+	background-color: #BF6E35;
+	border-color: #F2f2f2;
+}
+.serviceBtn{
+	color:#F2f2f2;
+	border-color: #F2f2f2;
+}
+.serviceBtn:hover{
+	background-color: #768948;
+	border-color: #768948;
+}
+
+/* === BEGIN NAVIGATION BAR SHIT ===  */
+.navbar{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	border-bottom: 2px solid #BF6E35;
+	background-color: #2D2D2D;
+}
+#phone{
+	margin: auto auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.active{
+	text-shadow: .75px .75px #BF6E35;
+}
+.mission{
+	background-color: rgb(218, 214, 214, .25);
+	border-top: 2px solid #BF6E35;
+	border-bottom: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100%;
+}
+/* === END NAVIGATION BAR SHIT === */
+
+/* === BEGIN JUMBOTRON SHIT === */
+.jumbotron {
+	background: url(../images/jumbotronBG.jpg) 100%;  /*https://inhabitat.com/how-to-determine-if-energy-efficiency-upgrades-are-right-for-your-home-and-budget/*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 8px;
+	padding-bottom: auto;
+	padding-top: auto;
+	border-radius: 5px 5px;
+}
+.jumbotron h1 {
+	margin-bottom: 0;
+	font-family: 'Racing Sans One', cursive;
+	text-shadow: 1.75px 1.75px black;
+	color: #F2F2F2;
+	font-weight: bold;
+	font-size: 32px;
+}
+.jumbotron p{
+	font-size: 20px;
+	font-family: 'Racing Sans One', cursive;
+	text-shadow: 1.75px 1.75px black;
+	font-weight: bold;
+	color: #F2F2F2;
+	margin-top: 20px;
+}
+#jumbopacity{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-right: 10px;
+	border-radius: 5px 5px; 
+	text-align:center;
+	display: inline-block;
+}
+
+/* === END JUMBOTRON SHIT === */
+/* === BEGIN TYPOGRAPHY SHIT==*/
+h5{
+	text-align: center;
+	text-shadow: 1.25px 1.25px black;
+}
+p {
+	text-shadow: .5px 1.25px black;
+}
+
+li{
+	text-shadow: .5px 1.25px black;
+}
+#wellKnown h5{
+	font-size: 26px;
+	margin-bottom: 0;
+}
+footer h4{
+	text-shadow: .9px .9px #BF6E35;
+	text-decoration: underline;
+}
+.topChunk h3{
+	text-shadow: .9px .9px #BF6E35;
+	text-decoration: underline;
+}
+#indexTopP{
+	margin-bottom:5px;
+}
+.contactUs{
+	text-align: center;
+}
+.saveWithUs{
+	text-align: center;
+}
+.mission h4{
+	font-size: 20px;
+	text-decoration: underline;
+	margin-top: 15px;
+}
+.mission p{
+	margin: 0 auto 20px;
+	font-size: 14px;
+}
+.striveTo h6{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 15px;
+}
+.striveTo li{
+	font-size: 12px;
+}
+.dependTo h6{
+	text-align: center;
+	font-size: 18px;
+	padding-top: 15px;
+}
+.dependTo li{
+	font-size: 12px;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0;
+}
+#servicesUL{
+	text-align: center;
+}
+.blackBack h5{
+	margin-top: 5px;
+}
+.blackBack p{
+	margin-bottom: 5px;
+}
+.faq p{
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+.faq h6{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 15px;
+}
+#pgTitle{
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	text-shadow: .9px .9px black;
+	font-size: 24px;
+}
+.quotation{
+	font-size: 22px;
+}
+.testimonials1 p {
+	line-height: 1.5em;
+	font-size: 16px;
+}
+.testify{
+	font-style: italic;
+	font-size: 18px;
+	background-color: #BF6E35;
+	padding-right: 5px;
+	padding-left: 3px;
+	border-radius: 2px 2px;
+}
+.estimates p{
+	width: 95%;
+	margin: 0 auto 10px;
+	font-size: 14px;
+}
+.serviceSnapshot h4{
+	text-align: center;
+}
+.serviceChunk h5{
+	border-top: 2px solid #BF6E35;
+	padding-top: 10px;
+	text-align: center;
+	text-shadow: 1.25px 1.25px black;
+	font-size: 22px;
+}
+.serviceChunk h6{
+	text-shadow: 1.25px 1.25px black;
+	margin-bottom: 2px;
+	font-size: 18px;
+	text-decoration: underline;
+}
+.serviceChunk p{
+	font-size: 14px;
+}
+address {
+	margin-bottom: 5px;
+}
+#addy{
+	margin-bottom: 2px;
+}
+/* === END TYPOGRAPHY SHIT==*/
+/* === BEGIN DIV SHIT===*/
+.h5Chunk{
+	text-align: center;
+	background-color: rgb(218, 214, 214, .25);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #BF6E35;
+ 	border-radius: 15px 15px; 
+ 	padding-top: 10px;
+ 	padding-bottom: 15px;
+ }
+.topChunk{
+	text-align: center;
+	background-color: rgb(218, 214, 214, .25);
+	border-top: 2px solid #BF6E35;
+	border-bottom: 2px solid #BF6E35;
+	margin-bottom: 5px;
+	padding: 10px, 5px, 10px, 5px;
+}
+.blackBack{
+	background-color: rgb(218, 214, 214, .25);
+	border-top: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100%;
+}
+.faq{
+	background-color: rgb(218, 214, 214, .25);
+	border-left: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100%;
+}
+.faqq{
+	margin-bottom: 20px;
+}
+.faqFoot{
+	margin-top: 0;
+}
+.faqFoot .foot2{
+	margin-top: 0;
+}
+.striveTo{
+	border-bottom: 2px solid #BF6E35;
+}
+.missionFoot{
+	margin-top: 0;
+}
+.jetBack{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#slides{
+	margin-bottom: 5px;
+}
+#wellKnown{
+	text-align: center;
+	background-color: rgb(218, 214, 214, .25);
+	margin-bottom: 5px;
+	border-top: 2px solid #BF6E35;
+	border-bottom: 2px solid #BF6E35;
+ 	padding-top: 10px;
+ 	padding-bottom: 5px;
+ 	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+}
+#wellKnown ul{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.testimonials{
+	border-top: 2px solid #BF6E35;
+}
+#c4Yourself{
+	border-top: 2px solid #BF6E35;
+}
+#c4Yourself table{
+	margin: 0 auto;
+	background-color: rgb(218, 214, 214, .25);
+	border: 2px solid #BF6E35;
+	text-align: center;
+}
+#c4Yourself table th{
+	text-align: center;
+	border-bottom: 2px solid #BF6E35;
+	border-right: 2px solid #BF6E35;
+	text-decoration: underline;
+}
+#c4Yourself table td{
+	border-bottom: 1px solid #BF6E35;
+	border-right: .25px solid #BF6E35;
+	padding: 5px 10px ;
+}
+.advice{
+	background-color: rgb(218, 214, 214, .25);
+	border-top: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100%;
+}
+.advicee{
+	margin-bottom: 20px;
+}
+.estimates{
+	border-top: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+}
+.estimates2{
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	height: 0;
+}
+.estimates2 img{
+	visibility: hidden;
+}
+.inspectionss{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.inspections{
+	background-color: rgb(218, 214, 214, .25);
+	border-top: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100%;
+}
+.serviceSnapshot{
+	background-color: rgb(218, 214, 214, .25);
+	border-top: 2px solid #BF6E35;
+	border-bottom: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+	height: 100%;
+}
+.foot1{
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	height: auto;
+}
+/*=== END DIV SHIT===*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+.mission h4{
+	font-size: 22px;
+	text-decoration: underline;
+	margin-top: 15px;
+}
+.mission p{
+	margin: 0 auto 20px;
+	font-size: 16px;
+}
+.striveTo h6{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.striveTo li{
+	font-size: 14px;
+}
+.dependTo h6{
+	text-align: center;
+	font-size: 20px;
+	padding-top: 15px;
+}
+.dependTo li{
+	font-size: 14px;
+}
+.faq p{
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.faq h6{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 17px;
+}
+#pgTitle{
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 15px;
+	font-size: 26px;
+}
+#wellKnown h5{
+	font-size: 26px;
+	text-shadow: 1.25px 1.25px black;
+}
+.estimates p{
+	width: 90%;
+	margin: 0 auto 12px;
+	font-size: 16px;
+}
+.jumbotron h1 {
+	font-size: 36px;
+}
+.jumbotron p{
+	font-size: 24px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.jetBack{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	.h5Chunk{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	}
+	.striveTo{
+	border-right: 2px solid #BF6E35;
+	border-bottom: none;
+	}
+	.whatWeDo{
+	border-top: 2px solid #BF6E35;
+	border-bottom: none;
+	}
+.mission h4{
+	font-size: 24px;
+	text-decoration: underline;
+	margin-top: 15px;
+}
+.mission p{
+	margin: 0 auto 20px;
+	font-size: 18px;
+}
+.striveTo h6{
+	text-align: center;
+	font-size: 22px;
+	padding-top: 15px;
+}
+.striveTo li{
+	font-size: 16px;
+}
+.dependTo h6{
+	text-align: center;
+	font-size: 22px;
+	padding-top: 15px;
+}
+.dependTo li{
+	font-size: 16px;
+}
+.faq p{
+	font-size: 16px;
+}
+.faq h6{
+	margin-top: 5px;
+	margin-bottom: 2px;
+	font-size: 19px;
+}
+#pgTitle{
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 15px;
+	font-size: 28px;
+}
+#wellKnown h5{
+	font-size: 28px;
+}
+.estimates p{
+	width: 95%;
+	margin: 0 auto 13px;
+	font-size: 16px;
+}
+.serviceChunk h5{
+	font-size: 23px;
+}
+.serviceChunk h6{
+	font-size: 19px;
+}
+.serviceChunk p{
+	font-size: 15px;
+}
+.jumbotron h1 {
+	font-size: 44px;
+}
+.jumbotron p{
+	font-size: 32px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.estimates2{
+	border-top: 2px solid #BF6E35;
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: center;
+  	height: auto;
+	}
+	.estimates2 img{
+		visibility: visible;
+	}
+	#wellKnown{
+	height: 95%;
+	}
+	.h5Chunk{
+ 	border-radius: 15px 50px; 
+ 	}
+	.topChunk{
+	width: 75%;
+	text-align: center;
+	margin: 0 auto 5px;
+	}
+	.indexServices{
+	padding-left: 0;
+	}
+	.foot2{
+	margin-top: 10px;
+	}
+	.faqFoot{
+		margin-top: 0;
+	}
+	.nav-item:hover{
+		background-color: #BF6E35;
+		height: 100%;
+	}
+	.mission p{
+	width: 75%;
+	}
+	.navbar{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	padding-top: 0;
+	padding-bottom: 0;
+	}
+	#phone{
+	margin: auto auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	}
+	#navbarSupportedContent{
+		height: 60px;
+	}
+	.nav-item{
+		display: table-cell;
+	}
+	.nav-link{
+		display: inline-block;
+		padding-top: 17px;
+	}
+.mission h4{
+	font-size: 25px;
+	text-decoration: underline;
+	margin-top: 15px;
+}
+.mission p{
+	margin: 0 auto 20px;
+	font-size: 19px;
+}
+.striveTo h6{
+	text-align: center;
+	font-size: 23px;
+	padding-top: 15px;
+}
+.striveTo li{
+	font-size: 17px;
+}
+.dependTo h6{
+	text-align: center;
+	font-size: 23px;
+	padding-top: 15px;
+}
+.dependTo li{
+	font-size: 17px;
+}
+#wellKnown h5{
+	font-size: 22px;
+}
+.estimates p{
+	width: 90%;
+	margin: 0 auto 12px;
+	font-size: 15px;
+}
+#servicesUL{
+	text-align: left;
+}
+.jumbotron h1 {
+	font-size: 48px;
+}
+.jumbotron p{
+	font-size: 36px;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.estimates p{
+	width: 90%;
+	margin: 0 auto 12px;
+	font-size: 16px;
+	}
+	.navbar{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	}
+	#phone{
+	margin: auto auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	}
+	.serviceChunk h5{
+	font-size: 24px;
+	}
+	.serviceChunk h6{
+		font-size: 20px;
+	}
+	.serviceChunk p{
+		font-size: 16px;
+	}
+	.jumbotron h1 {
+		font-size: 54px;
+	}
+	.jumbotron p{
+		font-size: 42px;
+	}
+}
